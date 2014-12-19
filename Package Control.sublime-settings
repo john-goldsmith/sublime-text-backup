@@ -1,16 +1,23 @@
 {
 	"installed_packages":
 	[
+		"Better CoffeeScript",
 		"BracketHighlighter",
+		"Can I Use",
 		"cdnjs",
 		"CoffeeScript",
+		"DashDoc",
+		"Future Funk - Color Scheme",
 		"Git",
 		"GitGutter",
 		"Hayaku - tools for writing CSS faster",
+		"Jade",
 		"Markdown Preview",
+		"MarkdownTOC",
 		"Package Control",
 		"Ruby Slim",
 		"Sass",
+		"SideBarEnhancements",
 		"Theme - Spacefunk",
 		"Theme - Spacegray"
 	]
