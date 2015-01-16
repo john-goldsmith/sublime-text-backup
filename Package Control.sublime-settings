@@ -1,16 +1,32 @@
 {
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"BracketHighlighter",
 		"cdnjs",
 		"CoffeeScript",
+		"Cucumber",
+		"DashDoc",
+		"Future Funk - Color Scheme",
 		"Git",
 		"GitGutter",
 		"Hayaku - tools for writing CSS faster",
+		"Highlight",
+		"Jade",
+		"LESS",
 		"Markdown Preview",
+		"MarkdownTOC",
 		"Package Control",
 		"Ruby Slim",
 		"Sass",
+		"Theme - Cobalt2",
 		"Theme - Spacefunk",
 		"Theme - Spacegray"
 	]

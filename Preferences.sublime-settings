@@ -1,15 +1,66 @@
 {
 	"auto_complete": true,
 	"auto_indent": true,
-	"bold_folder_labels": false,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip",
+		"*.log",
+		"*.gem",
+		"*.scssc"
+	],
+	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"close_windows_when_empty": true,
-	"color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+	"color_scheme": "Packages/Base16/base16-ocean.dark.tmTheme",
 	"create_window_at_startup": true,
 	"detect_indentation": true,
 	"drag_text": false,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"tmp",
+		"coverage",
+		".sass-cache"
+	],
 	"font_face": "Source Code Pro",
-	"font_size": 13,
+	"font_size": 15.0,
 	"gutter": true,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
@@ -37,19 +88,11 @@
 	"show_tab_close_buttons": true,
 	"tab_completion": true,
 	"tab_size": 2,
-	"theme": "Spacegray.sublime-theme",
+	"theme": "Spacefunk (Blue Monday).sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"tree_animation_enabled": false,
 	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
-	"word_wrap": false,
-	// folder_exclude_patterns and file_exclude_patterns control which files
-	// are listed in folders on the side bar. These can also be set on a per-
-	// project basis.
-	"folder_exclude_patterns": [".svn", ".git", ".hg", "CVS", "tmp"],
-	"file_exclude_patterns": ["*.pyc", "*.pyo", "*.exe", "*.dll", "*.obj","*.o", "*.a", "*.lib", "*.so", "*.dylib", "*.ncb", "*.sdf", "*.suo", "*.pdb", "*.idb", ".DS_Store", "*.class", "*.psd", "*.db"],
-	// These files will still show up in the side bar, but won't be included in
-	// Goto Anything or Find in Files
-	"binary_file_patterns": ["*.jpg", "*.jpeg", "*.png", "*.gif", "*.ttf", "*.tga", "*.dds", "*.ico", "*.eot", "*.pdf", "*.swf", "*.jar", "*.zip", "*.log", "*.gem", "*.scssc"]
+	"word_wrap": true
 }
