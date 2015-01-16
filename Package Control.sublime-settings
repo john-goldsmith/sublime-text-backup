@@ -9,7 +9,9 @@
 	],
 	"installed_packages":
 	[
+		"Better CoffeeScript",
 		"BracketHighlighter",
+		"Can I Use",
 		"cdnjs",
 		"CoffeeScript",
 		"Cucumber",
@@ -27,6 +29,7 @@
 		"Ruby Slim",
 		"Sass",
 		"Theme - Cobalt2",
+		"SideBarEnhancements",
 		"Theme - Spacefunk",
 		"Theme - Spacegray"
 	]
